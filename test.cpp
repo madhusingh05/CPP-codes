@@ -14,6 +14,6 @@ int main()
     discount = 10 ;
     bill_amt = total_amt - (discount/100 * total_amt);
     cout<<"You have to pay : Rs "<<bill_amt<<"/-";
-
+    cout<<"\nThis is new statement";
     return 0;
 }
