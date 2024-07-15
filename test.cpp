@@ -13,6 +13,7 @@ int main()
     else if (total_amt < 5000) 
     discount = 10 ;
     bill_amt = total_amt - (discount/100 * total_amt);
-    cout<<"You have to pay : Rs "<<bill_amt<<"/-";    
+    cout<<"You have to pay : Rs "<<bill_amt<<"/-"; 
+    cout<<"Hello";   
     return 0;
 }
